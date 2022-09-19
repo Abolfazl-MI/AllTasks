@@ -301,9 +301,9 @@ packages:
   introduction_screen:
     dependency: "direct main"
     description:
-      name: introduction_screen
-      url: "https://pub.dartlang.org"
-    source: hosted
+      path: introduction_screen
+      relative: true
+    source: path
     version: "3.0.2"
   io:
     dependency: transitive

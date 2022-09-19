@@ -17,10 +17,25 @@ class $AssetsIconsGen {
       const AssetGenImage('assets/icons/allTaskLogo.png');
 }
 
+class $AssetsImagesGen {
+  const $AssetsImagesGen();
+
+  /// File path: assets/images/Checklist.png
+  AssetGenImage get checklist =>
+      const AssetGenImage('assets/images/Checklist.png');
+
+  /// File path: assets/images/success.png
+  AssetGenImage get success => const AssetGenImage('assets/images/success.png');
+
+  /// File path: assets/images/target.png
+  AssetGenImage get target => const AssetGenImage('assets/images/target.png');
+}
+
 class Assets {
   Assets._();
 
   static const $AssetsIconsGen icons = $AssetsIconsGen();
+  static const $AssetsImagesGen images = $AssetsImagesGen();
 }
 
 class AssetGenImage {
