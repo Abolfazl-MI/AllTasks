@@ -11,7 +11,7 @@ class SplashScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        decoration: BoxDecoration(
+        decoration: const BoxDecoration(
           gradient: LinearGradient(
             colors: [SolidColors.lightBlue, SolidColors.white],
             begin: Alignment.topCenter,
@@ -32,7 +32,7 @@ class SplashScreen extends StatelessWidget {
             Positioned(
               bottom: MediaQuery.of(context).size.height / 8,
               left: MediaQuery.of(context).size.width / 2.5,
-              child: Center(
+              child: const Center(
                 child: SpinKitWave(
                   color: SolidColors.lightBlue,
                 ),
