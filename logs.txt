@@ -1,0 +1,7 @@
+
+-(EddyHezarian)-> 23/6/1401 
+{
+    -add task_screen file : hard code : ui is ready to recive data from controller 
+
+    -add theme_config file : all the color pallets and icons is ready to use 
+}

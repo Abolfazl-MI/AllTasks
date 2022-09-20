@@ -14,6 +14,10 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.2
+
+  google_fonts: ^3.0.1
+  flutter_date_picker_timeline: ^0.3.3
+
   get: ^4.6.5
   sqflite: ^2.0.3+1
   flutter_svg: ^1.1.5
@@ -21,9 +25,10 @@ dependencies:
   
   flutter_spinkit: ^5.1.0
 
+
   introduction_screen:
     path: ./introduction_screen
-  
+
 
 dev_dependencies:
   flutter_test:
